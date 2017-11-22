@@ -6,11 +6,8 @@ nav {
 	height: 68px;
 	border-bottom: 2px solid #dddddd;
 	margin-bottom: 50px;
-	word-spacing: 5px;	
-}
-
-h1, h2, h3, h4 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	word-spacing: 5px;
+	font-family: 'Georgia', Times, Times New Roman, serif;	
 }
 
 body {
@@ -40,12 +37,14 @@ span {
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-bottom: 30px;
+	height: 100%;
 }
 
 #content h2 {
 	border-bottom: 3px solid #dddddd;
 	padding-bottom: 20px;
 	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #connect {
@@ -55,6 +54,7 @@ span {
 	text-align: center;
 	margin-right: 7%;
 	padding: 10px 0px 15px 0px;
+	clear: both;
 }
 
 #connect h4 {
@@ -63,6 +63,7 @@ span {
 	margin-right: 40px;
 	margin-left: 40px;
 	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #connect a:hover {
@@ -105,31 +106,23 @@ p {
 
 /*portfolio.html code begin*/
 #apps {
-	height: 740px;
 	background-color: #ffffff;
-	width: 100%;
-	display: block;
 }
 
 .app-logo {
-    vertical-align: middle;
     padding: 24px;
-    padding-left: 0px;
-    display: block-inline;
     float: left;
-	position: relative;
 }
 
-.app-logo h3 {
+.app-logo h4 {
 	position: absolute;
-	width: 91.25%;
+	/*width: 70.75%;*/
 	bottom: 35px;
-	text-align: center;
+	/*text-align: center;*/
 	background-color: #4aaaa5;
 	color: #ffffff;
-	height: 30px;
-	padding-top: 10px;
-	margin-bottom: 5px;
+	font-family: 'Georgia', Times, Times New Roman, serif;	
+
 }
 
 .app-logo img {
@@ -142,14 +135,7 @@ p {
 
 
 /*contact.html code begin */
-.container {
-    border-radius: 5px;
-    background-color: #ffffff;
-   	padding-bottom: 20px;
- 
-}
-
-input[type=text], select, textarea {
+/*input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;  
     border: 1px solid #ccc; 
@@ -158,12 +144,15 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical; 
+}*/
+textarea {
+	height: 200px;
 }
 
 input[type=submit] {
     background-color: #4aaaa5;
     color: white;
-    padding: 12px 20px;
+    padding: 6px 10px;
     border: none;
     border-radius: 4px;
     cursor: grab;
