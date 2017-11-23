@@ -86,6 +86,7 @@ footer {
 
 
 
+
 /*index.html code begin*/
 
 #pic {
@@ -102,6 +103,7 @@ img.resize {
 p {
     line-height: 30px;
 }
+
 
 
 /*index.html code end*/
@@ -126,6 +128,7 @@ p {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+
 /*portfolio.html code end*/
 
 
@@ -147,6 +150,5 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #1b6b69;
 }
-
 
 /*contact.html code end*/
