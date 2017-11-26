@@ -51,16 +51,18 @@ span {
     color: #777777;
     background-color: #ffffff;
     text-align: center;
-    margin-right: 7%;
-    padding: 10px 0px 15px 0px;
-    clear: both;
+    width: 18rem;
+    height: 10%;  
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-color: #ffffff;
 }
 
 #connect h4 {
     border-bottom: 2px solid #dddddd;
-    padding-bottom: 10px;
-    margin-right: 40px;
-    margin-left: 40px;
+    padding-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -76,15 +78,11 @@ footer {
     font-size: 10px;
     height: 10%;
     padding-top: 20px;
-    clear: both;
     border-top: 7px solid #4aaaa5;
-    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
 }
-
-
 
 
 /*index.html code begin*/
@@ -103,7 +101,6 @@ img.resize {
 p {
     line-height: 30px;
 }
-
 
 
 /*index.html code end*/
