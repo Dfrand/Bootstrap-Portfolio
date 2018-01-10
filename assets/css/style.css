@@ -82,6 +82,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    position: fixed;
 }
 
 
@@ -123,9 +124,24 @@ p {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    opacity: .9;
 }
 
+#trainImg {
+    height: 75%;
+}
 
+#foodImg {
+    height: 75%;
+}
+
+#painImg {
+    height: 75%;
+}
+
+#compostImg {
+    height: 85%;
+}
 /*portfolio.html code end*/
 
 
