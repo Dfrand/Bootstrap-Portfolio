@@ -115,11 +115,11 @@ p {
 
 .app-logo {
     float: left;
+    margin-bottom: 5%;
 }
 
 .app-logo h4 {
     margin-top: 55%;
-    bottom: 35px;
     text-align: center;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -127,20 +127,24 @@ p {
     opacity: .9;
 }
 
-#trainImg {
-    height: 75%;
+#compostImg {
+    height: 85%;
+}
+
+#liriImg {
+    height: 85%;
 }
 
 #eventImg {
-    height: 75%;
+    height: 110%;
 }
 
-#painImg {
-    height: 75%;
+#trainImg {
+    height: 110%;
 }
 
-#compostImg {
-    height: 85%;
+#portfolioImg {
+    height: 100%;
 }
 /*portfolio.html code end*/
 
